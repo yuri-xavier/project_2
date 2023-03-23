@@ -1,1 +1,6 @@
-git -m
+git init
+git config --global user.name "username que você quiser"
+git config --global user.email "seu e-mail"
+git add -A
+git status
+git commit -m "Arquivo aula_git.txt criado"
