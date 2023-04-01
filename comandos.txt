@@ -1,33 +1,34 @@
-Comandos aprendidos hoje
+Comandos aprendidos:
+#---------------------------------------------------------------------------------------------------------------------------------#
 Git init -> inicia um diretório no Git
 Git config --global user.name "  nome de usuário   " -> cria um nome de usuário 
 Git config user.name -> mostra o nome do usuário definido anteriormente
-Git config user.email "   Email    " -> adiciona seu email no Git
+Git config user.email "Email" -> adiciona seu email no Git
 git config user.email -> mostra o email criado 
-
+#---------------------------------------------------------------------------------------------------------------------------------#
 Git add .  -> prepara o arquivo para ser commitado "o arquivo fica visível para o commit"
 Git add -A -> também adiciona o arquivo p/ ser commitado (adiciona tudo )
 git status -> verifica se o arquivo foi adicionado 
 Git commit -m "   mensagem referente ao arquivo    " -> passa uma mensagem sobre o arquivo
-
+#---------------------------------------------------------------------------------------------------------------------------------#
 CTRL + C -> cancela a operação em andamento caso seja necessário
+#---------------------------------------------------------------------------------------------------------------------------------#
 
 Comandos para fazer o push:
 
-git remote add origin 
+git remote add origin "link"
 git branch -M main
 git push -u origin main
-
+#---------------------------------------------------------------------------------------------------------------------------------#
 git remote -v -> verifica diretório remoto criado 
 git remote rm endereço url -> apaga o diretório 
-
+#---------------------------------------------------------------------------------------------------------------------------------#
+git checkout -b "nome da branch" -> cria nova branch e ja altera para ela
 git branch nome da branch -> cria um branch com um nome que vc a nomear
 git checkout nome da branch -> muda para outra branch 
-
+#---------------------------------------------------------------------------------------------------------------------------------#
 git merge nome da branch -> traz os dados criados de outra branch para a branch main (mas tem que estar na branch main fazer isso)
+#---------------------------------------------------------------------------------------------------------------------------------#
+git push origin "nome da branch" -> faz um push da branch secundária 
+git pull origin "nome da branch" -> faz um pull da branch secundária (estar dentro da branch secundária)
 
-git push origin nome da branch -> faz um push da branch secundária 
-
-git pull origin nome da branch -> faz um pull da branch secundária (estar dentro da branch secundária)
-
-git checkout -b nome da branch -> cria nova branch e ja altera para ela
