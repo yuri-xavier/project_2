@@ -21,7 +21,7 @@ git branch -M main
 git push -u origin main
 #---------------------------------------------------------------------------------------------------------------------------------#
 git remote -v -> verifica diretório remoto criado 
-git remote rm endereço url -> apaga o diretório 
+git remote rm endereço url ou origin -> apaga o diretório 
 #---------------------------------------------------------------------------------------------------------------------------------#
 git checkout -b "nome da branch" -> cria nova branch e ja altera para ela
 git branch nome da branch -> cria um branch com um nome que vc a nomear
